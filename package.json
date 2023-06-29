@@ -4,8 +4,7 @@
   "description": "A mixin for declaring property accessors",
   "main": "src/property-accessors",
   "scripts": {
-    "test": "grunt test",
-    "publish": "grunt"
+    "test": "jasmine-focused --coffee --captureExceptions spec"
   },
   "repository": {
     "type": "git",
