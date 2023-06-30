@@ -1,7 +1,4 @@
-# Property Accessors Mixin
-[![OS X Build Status](https://travis-ci.org/atom/property-accessors.svg?branch=master)](https://travis-ci.org/atom/property-accessors)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/ww4d10hi4v5h7kbp/branch/master?svg=true)](https://ci.appveyor.com/project/Atom/property-accessors/branch/master)
-[![Dependency Status](https://david-dm.org/atom/property-accessors.svg)](https://david-dm.org/atom/property-accessors)
+# Property Accessors Mixin [![CI](https://github.com/pulsar-edit/property-accessors/actions/workflows/ci.yaml/badge.svg)](https://github.com/pulsar-edit/property-accessors/actions/workflows/ci.yaml)
 
 A mixin for defining dynamic properties.
 
