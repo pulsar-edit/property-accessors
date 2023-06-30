@@ -1,15 +1,14 @@
 {
   "name": "property-accessors",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "A mixin for declaring property accessors",
-  "main": "lib/property-accessors",
+  "main": "src/property-accessors",
   "scripts": {
-    "test": "grunt test",
-    "publish": "grunt"
+    "test": "jasmine-focused --coffee --captureExceptions spec"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/property-accessors"
+    "url": "https://github.com/pulsar-edit/property-accessors"
   },
   "keywords": [
     "property",
@@ -20,23 +19,16 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/atom/property-accessors/raw/master/LICENSE.md"
+      "url": "http://github.com/pulsar-edit/property-accessors/raw/master/LICENSE.md"
     }
   ],
   "bugs": {
-    "url": "https://github.com/atom/property-accessors/issues"
+    "url": "https://github.com/pulsar-edit/property-accessors/issues"
   },
-  "homepage": "http://atom.github.io/property-accessors/",
   "dependencies": {
     "mixto": "1.x"
   },
   "devDependencies": {
-    "jasmine-focused": "1.x",
-    "grunt-contrib-coffee": "~0.7.0",
-    "grunt-cli": "~0.1.8",
-    "grunt": "~0.4.1",
-    "grunt-shell": "~0.2.2",
-    "grunt-coffeelint": "0.0.6",
-    "rimraf": "~2.5.2"
+    "jasmine-focused": "1.x"
   }
 }

@@ -1,17 +1,8 @@
-/*
- * decaffeinate suggestions:
- * DS102: Remove unnecessary code created because of implicit returns
- * DS207: Consider shorter variations of null checks
- * Full docs: https://github.com/decaffeinate/decaffeinate/blob/main/docs/suggestions.md
- */
-let PropertyAccessors;
 const Mixin = require('mixto');
-const {
-  WeakMap
-} = global;
+const { WeakMap } = global;
 
 module.exports =
-(PropertyAccessors = class PropertyAccessors extends Mixin {
+class PropertyAccessors extends Mixin {
   accessor(name, definition) {
     if (typeof definition === 'function') {
       definition = {get: definition};
@@ -63,4 +54,4 @@ module.exports =
     }
     );
   }
-});
+}
